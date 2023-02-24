@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+* { box-sizing: border-box; }
+ul { width: 100%; max-width: 1000px; min-width: 320px; margin: 200px auto; }
+ul > li { float: left; width: 33.3%; padding: 0 10px;  }
+ul > li > .box { border: 1px solid #efefef; padding: 30px; }
+ul > li > .box > .title { font-size: 1.5em; font-weight: bold; }
+ul > li > .box > .desc { line-height: 1.5em; margin-top: 30px; }
